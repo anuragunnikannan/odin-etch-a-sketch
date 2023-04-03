@@ -39,7 +39,7 @@ h1 {
 }
 
 .slider {
-    -webkit-appearance: none;
+    --webkit-appearance: none;
     width: 60%;
     height: 10px;
     background: #d3d3d3;
@@ -48,9 +48,9 @@ h1 {
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
-  }
-  
-  .slider::-webkit-slider-thumb {
+}
+
+.slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 20px;
@@ -58,14 +58,14 @@ h1 {
     border-radius: 50%;
     background: #14acc7;
     cursor: pointer;
-  }
-  
-  .slider::-moz-range-thumb {
+}
+
+.slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
     background: #35b7ce;
     cursor: pointer;
-  }
+}
 
 #container {
     display: grid;
@@ -91,7 +91,7 @@ button {
 }
 
 #normal {
-    background: rgb(72, 156, 224);   
+    background: rgb(72, 156, 224);
 }
 
 #rainbow {
